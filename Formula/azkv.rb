@@ -7,11 +7,11 @@ class Azkv < Formula
   on_macos do
     on_arm do
       url "https://github.com/musukvl/azkv/releases/download/v1.0.0/azkv-1.0.0-osx-arm64.tar.gz"
-      sha256 "REPLACE_WITH_ARM64_SHA256"
+      sha256 "5c1245bfbc2acfed6eed556d7ae5b91e7c4fab125c1c1c874f0ed075ea01dafc"
     end
     on_intel do
       url "https://github.com/musukvl/azkv/releases/download/v1.0.0/azkv-1.0.0-osx-x64.tar.gz"
-      sha256 "REPLACE_WITH_X64_SHA256"
+      sha256 "e07e397ca16b760d48a52c46b758e2b3b1bbd68c58fa770e21c6642fc13cb2a7"
     end
   end
 
