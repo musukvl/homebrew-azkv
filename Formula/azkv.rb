@@ -15,6 +15,13 @@ class Azkv < Formula
     end
   end
 
+  on_linux do
+    on_intel do
+      url "https://github.com/musukvl/azkv/releases/download/v1.0.1/azkv-1.0.1-linux-x64.tar.gz"
+      sha256 "e5584d8e03a3d3b7776459e6cb2565fa61db1fec29af4b9c2ab7f6ee4fc2d636"
+    end
+  end
+
   depends_on "azure-cli"
 
   def install
