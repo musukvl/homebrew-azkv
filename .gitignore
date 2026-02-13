@@ -1,0 +1,7 @@
+# Homebrew tap specific
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
