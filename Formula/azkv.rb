@@ -1,24 +1,24 @@
 class Azkv < Formula
   desc "Terminal UI for managing Azure Key Vaults"
   homepage "https://github.com/musukvl/azkv"
-  version "1.0.2"
+  version "1.0.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/musukvl/azkv/releases/download/v1.0.2/azkv-1.0.2-osx-arm64.tar.gz"
-      sha256 "034fa8aef490037ced9ab8279d80cb884e637fec6662ca915f82cd30bfaf0f6c"
+      url "https://github.com/musukvl/azkv/releases/download/v1.0.3/azkv-1.0.3-osx-arm64.tar.gz"
+      sha256 "4d701477296f9d974d4958f43aa7927f791c10e6f3cc1daffdf45d7e35f3d6c8"
     end
     on_intel do
-      url "https://github.com/musukvl/azkv/releases/download/v1.0.2/azkv-1.0.2-osx-x64.tar.gz"
-      sha256 "6240652f314862d9c15dfab9bf16cf8c7b6dbc5f3297219f06e28032ddac8695"
+      url "https://github.com/musukvl/azkv/releases/download/v1.0.3/azkv-1.0.3-osx-x64.tar.gz"
+      sha256 "93784ab61d09d7c457bd22b1aafb6321accaefa8025abde7874b81a237b53355"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/musukvl/azkv/releases/download/v1.0.2/azkv-1.0.2-linux-x64.tar.gz"
-      sha256 "5c6fa3a12d9869d361f65d54d1f16a9f0212e5206b9372bd3d9824079d229a1a"
+      url "https://github.com/musukvl/azkv/releases/download/v1.0.3/azkv-1.0.3-linux-x64.tar.gz"
+      sha256 "8eefa7e680313184e30c2e05514638c0335c47011110ae1a5fb20b302431ab68"
     end
   end
 
